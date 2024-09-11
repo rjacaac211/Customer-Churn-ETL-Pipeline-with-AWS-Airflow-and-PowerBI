@@ -1,0 +1,10 @@
+sudo apt update
+sudo apt install python3-pip
+sudo apt install python3-venv
+python3 -m venv customer_churn_venv
+source customer_churn_venv/bin/activate 
+pip install apache-airflow
+pip install apache-airflow-providers-amazon
+airflow standalone
+
+pip freeze > requirements.txt
