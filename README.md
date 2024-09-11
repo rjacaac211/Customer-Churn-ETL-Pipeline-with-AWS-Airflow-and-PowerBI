@@ -6,7 +6,7 @@ This repository showcases a data pipeline designed for customer churn analysis. 
 
 Below is the architecture diagram for the Customer Churn ETL Pipeline:
 
-![Data Pipeline Architecture](path/to/your/image.png)
+![Data Pipeline Architecture](assets/img/pipeline.jpg)
 
 ## Architecture Overview
 
