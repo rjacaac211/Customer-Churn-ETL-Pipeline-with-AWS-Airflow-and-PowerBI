@@ -8,6 +8,12 @@ Below is the architecture diagram for the Customer Churn ETL Pipeline:
 
 ![Data Pipeline Architecture](assets/img/pipeline.jpg)
 
+## Dashboard
+
+Here is a screenshot of the dashboard created with Power BI:
+
+![Dashboard](assets/img/dashboard.jpg)
+
 ## Architecture Overview
 
 ### Key Components:
