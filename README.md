@@ -6,13 +6,13 @@ This repository showcases a data pipeline designed for customer churn analysis. 
 
 Below is the architecture diagram for the Customer Churn ETL Pipeline:
 
-![Data Pipeline Architecture](path/to/your/image.png)
+![Data Pipeline Architecture](assets/img/pipeline.jpg)
 
 ## Architecture Overview
 
 ### Key Components:
 - **Amazon S3**: Acts as both the data source and target for raw and processed data storage.
-- **AWS Glue Crawler**: Automatically infers the schema of data in S3 and Redshift, and updates the AWS Glue Data Catalog for querying with **Amazon Athena** or **Amazon Redshift**.
+- **AWS Glue Crawler**: Automatically infers the schema of data in S3 and Redshift, and updates the AWS Glue Data Catalog for querying with Amazon Athena or Amazon Redshift.
 - **AWS Glue Job**: Responsible for transforming the data and moving it from S3 to Redshift.
 - **Amazon Redshift**: A data warehouse for storing and analyzing transformed data.
 - **Amazon Athena**: Enables querying of S3 data using SQL for analytics.
